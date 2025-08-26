@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3A335A;
+}
+
+.container {
+  position: absolute;
+  display: inline-flex;
+  gap: 40px;
+  flex-direction: column;
+  top: 50%;
+}
+
+.center {
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.left {
+  left: 7.5%;
+  transform: translateX(-50%) translateY(-50%) rotate(15deg);
+
+}
+
+.right {
+  right: 30px;
+  transform: translateX(50%) translateY(-50%)rotate(-15deg);
+}
+
+
+.bar {
+  width: 140px;
+  height: 30px;
+  background: #fff;
+}
